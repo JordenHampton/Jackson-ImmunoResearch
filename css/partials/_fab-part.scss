@@ -1,0 +1,14 @@
+.intro-fab-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 178px  99.15vw;
+    border-color:  transparent transparent $green transparent;
+    // margin-top: rem;
+}
+
+.fab-part {
+    padding-top: .1rem;
+    background: $green;
+    color: #fff;
+}
