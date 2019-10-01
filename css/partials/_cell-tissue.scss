@@ -1,0 +1,51 @@
+.cell-container {
+    color: $green;
+}
+
+.lower-2 {
+    font-size: 1.1rem;
+}
+
+.cell-table {
+    margin: 0 auto;
+    color: #fff;
+    border-spacing: 0;
+    margin-bottom: 4rem;
+}
+
+.cell-table th,
+.cell-table td {
+    padding: .6rem 1rem;
+    margin: -.1rem;
+}
+
+.cell-table th {
+    background: $green;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.cell-table td {
+    font-size: 2rem;
+}
+
+.even-left {
+    background: $tableLightGreen;
+}
+
+.even-right {
+    background: $tableLightGrey;
+}
+
+.odd-left {
+    background: $tableDarkGreen;
+}
+
+.odd-right {
+    background: $tableDarkGrey;
+}
+
+.even-right, 
+.odd-right {
+    color: rgb(80, 80, 80)
+}

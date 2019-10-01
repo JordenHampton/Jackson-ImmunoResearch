@@ -1,0 +1,69 @@
+.cell-footer-triangle {
+    @include right-to-left-triangle;
+    margin-bottom: 3rem;
+}
+
+footer {
+    background: $green;
+    color: #fff;
+}
+
+.footer-container {
+    width: 55%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+.footer-container p {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.footer-container h2 {
+    font-size: 2.1rem;
+}
+
+.contact,
+.references {
+    width: 45%;
+}
+
+.references img {
+    filter: brightness(0) invert(1);
+    width: 2rem;
+    display: inline-block;
+}
+
+.references h2 {
+    margin-bottom: 1.5rem;
+}
+
+.ref-1 {
+    margin-bottom: -1rem;
+}
+
+.ref-1 p,
+.ref-2 p {
+    display: inline-block;
+    width: 83%;
+}
+
+.footer-icon {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: .8rem;
+    font-size: 2.2rem;
+}
+
+.email {
+    margin-bottom: 3rem;
+}
+
+.advert {
+    background: url("../img/image3.jpg") no-repeat top;
+    background-size: 100vw;
+    height: 12.3vw;
+}
