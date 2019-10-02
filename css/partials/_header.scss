@@ -16,10 +16,18 @@ header {
     height: 61rem;
 }
 
+.logo-small {
+    display: none;
+}
+
+.large-text {
+    display: none;
+}
+
 .logo {
     margin-top: 1rem;
     margin-left: .3rem;
-    width: 23%;
+    height: 130px;
 }
 
 .header-top {

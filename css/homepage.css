@@ -17,10 +17,18 @@ header {
   height: 61rem;
 }
 
+.logo-small {
+  display: none;
+}
+
+.large-text {
+  display: none;
+}
+
 .logo {
   margin-top: 1rem;
   margin-left: .3rem;
-  width: 23%;
+  height: 130px;
 }
 
 .header-top {
@@ -129,6 +137,10 @@ header a:hover {
   text-transform: uppercase;
   margin-top: -.2rem;
   z-index: 2;
+}
+
+.download-short {
+  display: none;
 }
 
 .intro-diagram-container a {
@@ -346,7 +358,7 @@ footer {
 .footer-container {
   width: 55%;
   margin: 0 auto;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +390,7 @@ footer {
 }
 
 .references h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .ref-1 {
@@ -406,5 +418,355 @@ footer {
   background: url("../img/image3.jpg") no-repeat top;
   background-size: 100vw;
   height: 12.3vw;
+}
+
+.bottom-advert {
+  background: url("../img/bottom-ad.png") no-repeat top;
+  background-size: 99.2vw;
+  height: 24vw;
+  display: none;
+}
+
+@media (max-width: 1725px) {
+  .logo {
+    height: 100px;
+  }
+  .header-top {
+    height: 10vw;
+  }
+  .header-top h1 {
+    font-size: 2.8vw;
+  }
+  .intro-read {
+    font-size: 1.5rem;
+    margin-top: -.2rem;
+  }
+  .sale-text {
+    font-size: 4rem;
+  }
+  .footer-container h2 {
+    font-size: 1.8rem;
+  }
+  .footer-icon {
+    font-size: 1.7rem;
+  }
+  .footer-container p {
+    margin-left: .5rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1620px) {
+  nav {
+    font-size: 1.3rem;
+  }
+  .fab-title {
+    font-size: 2.5rem;
+  }
+  .fab-description {
+    font-size: 1.3rem;
+  }
+  .fab-fluo-triangle {
+    margin-top: -11.1rem;
+  }
+  .fab-right {
+    background: url("../img/image4.jpg") no-repeat;
+    background-size: 100rem;
+    height: 57rem;
+  }
+  .references img {
+    width: 1.3rem;
+  }
+  .footer-container p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .section-title {
+    font-size: 2.3rem;
+  }
+  .main-text {
+    font-size: 1.3rem;
+  }
+  .logo {
+    height: 70px;
+  }
+  .header-top {
+    height: 8vw;
+  }
+  .header-top h1 {
+    font-size: 2.8vw;
+    margin-top: 2.5vw;
+  }
+  nav {
+    font-size: 1rem;
+  }
+  .intro-read {
+    font-size: 1.2rem;
+    margin-top: -.2rem;
+  }
+  .fluo-table th {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .fluo-table td {
+    font-size: 1.1rem;
+  }
+  .sale-text {
+    font-size: 3rem;
+  }
+  .cell-table th {
+    font-size: 1.9rem;
+  }
+  .cell-table td {
+    font-size: 1.5rem;
+  }
+  .footer-icon {
+    font-size: 1.3rem;
+  }
+  .footer-icon {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: .3rem;
+    font-size: 1.1rem;
+  }
+  .references h2 {
+    margin-bottom: 2.1rem;
+  }
+  .references img {
+    visibility: hidden;
+  }
+  .references p {
+    margin-left: -1.6rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .fab-title {
+    font-size: 2rem;
+  }
+  .fab-description {
+    font-size: 1.1rem;
+  }
+  .fab-fluo-triangle {
+    margin-top: -11.1rem;
+  }
+  .fab-right {
+    height: 57rem;
+  }
+}
+
+@media (max-width: 1110px) {
+  .logo {
+    height: 55px;
+  }
+  .download-full {
+    display: none;
+  }
+  .download-short {
+    display: initial;
+  }
+  .fab-title {
+    font-size: 1.7rem;
+  }
+  .fab-description {
+    font-size: 1rem;
+  }
+  .cell-table th {
+    font-size: 1.5rem;
+  }
+  .cell-table td {
+    font-size: 1.2rem;
+  }
+  .footer-container {
+    width: 90%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer-container h1 {
+    font-size: 1.6rem;
+  }
+  .footer-container p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 90%;
+  }
+  .logo {
+    height: 45px;
+  }
+  nav {
+    font-size: .8rem;
+  }
+  .intro-diagram-img {
+    background: url("../img/image2.jpg") no-repeat top;
+    background-size: contain;
+    height: 33vw;
+    border: 4px solid #028f5b;
+    border-bottom: none;
+  }
+  .fab-fluo-triangle {
+    margin-top: -11.1rem;
+  }
+  .fab-right {
+    height: 65rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .container {
+    text-align: center;
+  }
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .main-text {
+    font-size: 1.3rem;
+    letter-spacing: .03rem;
+    line-height: 1.7rem;
+  }
+  header {
+    height: 35rem;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-small {
+    display: initial;
+    height: 100px;
+    margin-left: .3rem;
+    margin-top: .3rem;
+  }
+  .header-container {
+    display: initial;
+  }
+  .header-top {
+    height: 35rem;
+    border: none;
+  }
+  .header-container h1:first-of-type {
+    display: none;
+  }
+  .header-container h1:last-of-type {
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 7.7vw;
+    margin-top: 1vw;
+  }
+  nav {
+    display: none;
+  }
+  .read-more-text {
+    font-size: 1rem;
+  }
+  .fab-right {
+    display: none;
+  }
+  .fab-left {
+    width: 100%;
+    margin-bottom: 15rem;
+  }
+  .fab-title,
+  .fab-description {
+    text-align: center;
+    width: 90%;
+  }
+  .fluo-bullet img {
+    width: 2rem;
+    margin-right: 2rem;
+  }
+  .fluo-table th {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+  .fluo-table td {
+    font-size: 1.2rem;
+  }
+  .sale-text {
+    font-size: 2.5rem;
+  }
+  .footer-container {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    display: initial;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 5rem;
+  }
+  .contact,
+  .references {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact {
+    margin-bottom: 5rem;
+  }
+  .references {
+    padding-bottom: 4rem;
+  }
+  .ref-1 {
+    margin-top: -2rem;
+  }
+  .footer-container p {
+    font-size: 1.6rem;
+  }
+  .footer-container h2 {
+    font-size: 2.1rem;
+  }
+  .advert {
+    display: none;
+  }
+  .bottom-advert {
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-container h1:last-of-type {
+    margin-top: 6rem;
+  }
+  .fluo-table th {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .fluo-table td {
+    font-size: 1rem;
+  }
+  .contact,
+  .references {
+    width: 90%;
+  }
+}
+
+@media (max-width: 390px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .main-text {
+    font-size: 1rem;
+  }
+  .cell-table th {
+    font-size: 1.35rem;
+  }
+  .cell-table td {
+    font-size: 1.1rem;
+  }
+  .footer-container p {
+    font-size: 1.2rem;
+  }
+  .footer-container h2 {
+    font-size: 1.9rem;
+  }
 }
 /*# sourceMappingURL=homepage.css.map */
