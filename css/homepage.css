@@ -604,11 +604,7 @@ footer {
     font-size: .8rem;
   }
   .intro-diagram-img {
-    background: url("../img/image2.jpg") no-repeat top;
-    background-size: contain;
     height: 33vw;
-    border: 4px solid #028f5b;
-    border-bottom: none;
   }
   .fab-fluo-triangle {
     margin-top: -11.1rem;
@@ -735,6 +731,9 @@ footer {
 @media (max-width: 540px) {
   .header-container h1:last-of-type {
     margin-top: 6rem;
+  }
+  .intro-diagram-img {
+    height: 32.7vw;
   }
   .fluo-table th {
     font-size: 1.5rem;
