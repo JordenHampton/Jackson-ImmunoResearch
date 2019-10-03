@@ -90,7 +90,7 @@ header a:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 178px 0 0 99.15vw;
+  border-width: 178px 0 0 calc(100vw - 20px);
   border-color: transparent transparent transparent #dadada;
   margin-top: -11.1rem;
 }
@@ -181,7 +181,7 @@ header a:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 178px 99.15vw 0 0;
+  border-width: 178px calc(100vw - 20px) 0 0;
   border-color: #dadada transparent transparent transparent;
   z-index: 100;
   position: absolute;
@@ -233,7 +233,7 @@ header a:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 178px 0 0 99.15vw;
+  border-width: 178px 0 0 calc(100vw - 20px);
   border-color: transparent transparent transparent #dadada;
   margin-top: -11.1rem;
   z-index: 100;
@@ -345,7 +345,7 @@ header a:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 178px 99.15vw 0 0;
+  border-width: 178px calc(100vw - 20px) 0 0;
   border-color: #dadada transparent transparent transparent;
   margin-bottom: 3rem;
 }
