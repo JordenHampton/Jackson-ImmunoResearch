@@ -164,6 +164,20 @@
 
 }
 
+@media (max-width: 1281px) {
+    $triangleWidth: 100vw;
+
+    .header-intro-triangle,
+    .fab-fluo-triangle {
+        border-width: 178px 0 0 $triangleWidth;
+    }
+
+    .intro-fab-triangle,
+    .cell-footer-triangle {
+        border-width: 178px $triangleWidth 0 0;
+    }
+}
+
 @media (max-width: 1250px) {
 
     // FAB FRAGMENTS

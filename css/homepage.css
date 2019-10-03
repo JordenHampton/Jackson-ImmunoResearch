@@ -91,7 +91,7 @@ header a:hover {
   height: 0;
   border-style: solid;
   border-width: 178px 0 0 calc(100vw - 17px);
-  border-color: transparent transparent transparent #dadada;
+  border-color: transparent transparent transparent green;
   margin-top: -11.1rem;
 }
 
@@ -234,7 +234,7 @@ header a:hover {
   height: 0;
   border-style: solid;
   border-width: 178px 0 0 calc(100vw - 17px);
-  border-color: transparent transparent transparent #dadada;
+  border-color: transparent transparent transparent green;
   margin-top: -11.1rem;
   z-index: 100;
   position: absolute;
@@ -539,6 +539,17 @@ footer {
   }
   .references p {
     margin-left: -1.6rem;
+  }
+}
+
+@media (max-width: 1281px) {
+  .header-intro-triangle,
+  .fab-fluo-triangle {
+    border-width: 178px 0 0 100vw;
+  }
+  .intro-fab-triangle,
+  .cell-footer-triangle {
+    border-width: 178px 100vw 0 0;
   }
 }
 
