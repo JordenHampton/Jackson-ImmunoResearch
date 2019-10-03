@@ -42,7 +42,7 @@ header {
   display: inline-block;
   color: #fff;
   text-align: center;
-  font-size: 3.1rem;
+  font-size: 3rem;
   margin: 0 auto;
   margin-top: 3rem;
 }
@@ -515,6 +515,9 @@ footer {
   .sale-text {
     font-size: 3rem;
   }
+  .lower-2 {
+    font-size: .9rem;
+  }
   .cell-table th {
     font-size: 1.9rem;
   }
@@ -589,6 +592,9 @@ footer {
   .cell-table td {
     font-size: 1.2rem;
   }
+  .lower-2 {
+    font-size: .7rem;
+  }
   .footer-container {
     width: 90%;
     -webkit-box-pack: space-evenly;
@@ -661,11 +667,11 @@ footer {
   .header-container h1:last-of-type {
     display: block;
     color: #fff;
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
-    font-size: 7.7vw;
-    margin-top: 1vw;
+    font-size: 7.2vw;
+    margin-top: 10vw;
   }
   nav {
     display: none;
